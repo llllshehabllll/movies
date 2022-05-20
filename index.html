@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <title> Netflix Shehab </title>
+        <meta name="Watch Netflix movies & TV shows online or stream right to your smart TV,
+         game console, PC, Mac, mobile, tablet and more." content="This is The relaxation page" />
+
+        <!-- This is External Style -->
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+
+    <body>
+
+        <div id="header" class="header">
+
+            <div id="first-section" class="first-section">
+
+                <div id="logo" class="logo">
+
+                    <!--This is Company logo -->
+
+                    <img src="./Pic/LOGO.png" alt="logo" width="180px">
+                </div>
+
+                <div id="search" class="search">
+
+                    <input type="search" />
+
+                    <button style="
+                            background:rgba(243, 83, 83, 0.633);
+                            border:none; 
+                            font-weight:bold;
+                            cursor:pointer;
+                            font-size:medium;
+                            font-style: italic;
+                            color:white;
+                            border-radius: 80px;">Search
+                    </button>
+                </div>
+
+                <div id="sing-in" class="sign-in">
+
+                    <button style="
+                            background:red;
+                            border:none; 
+                            font-weight:bold;
+                            cursor:pointer;
+                            color: rgb(13, 10, 10);
+                            border-radius: 50px;">Sign in
+                    </button>
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <!--This is descrbtion page -->
+            <div id="descrbtion-first-section" class="descrbtion-first-section">
+
+                <h1> Unlimited movies, TV shows, and more. </h1>
+                <h3> Watch anywhere. Cancel anytime. </h3>
+                <h5> Ready to watch? Enter your email to create or restart your membership. </h5>
+
+                <input style="
+                            text-indent: 50px; 
+                            background-color:rgba(65, 45, 45, 0.635);
+                            color: rgb(22, 17, 17);
+                            font-size: medium;
+                            border: none;
+                            border-radius: 800px;" type="email" name="emil" class="emil" placeholder="Email adress" />
+
+                <button style="
+                            background:rgba(243, 83, 83, 0.565);
+                            border:none; 
+                            font-weight:bold;
+                            cursor:grab;
+                            font-size:medium;
+                            font-style: italic;
+                            color:rgb(45, 28, 28);
+                            border-radius: 50px; "> Get Stared
+                </button>
+            </div>
+
+        </div>
+
+        <hr>
+        <hr>
+
+        <div id="second-section" class="second-section">
+            <div id="descrbtion-second-section" class="descrbtion-second-section">
+
+                <!--This is descrbtion for the watch -->
+                <h2>Enjoy on your TV. </h2>
+                <h4> Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h4>
+
+            </div>
+
+            <div id="vedio-second-section" class="vedio-second-section">
+
+                <!--This is vedio in future 2050  -->
+                <video controls width="40%" autoplay muted loop poster="./Pic/future.png">
+                    <source src="./Video/the future.mp4" type="video/mp4" />
+
+                    <!-- This is the Video translation -->
+                    <track src="EN" label="English" />
+                    <track src="FR" label="française" />
+                </video>
+            </div>
+
+        </div>
+
+        <hr>
+        <hr>
+
+        <div id="footer" class="footer">
+
+            <div id="title-footer" class="title-footer">
+
+                <!-- This is the footer -->
+                <!-- regstrtion section  -->
+                <label> <u>Sign UP</u> </label>
+            </div>
+
+            <br>
+
+            <div id="regstrtion-footer" class="regstrtion-footer">
+                <label>User name</label>
+                <input type="text" required placeholder="User name" name="user">
+
+                <label>Bithday</label>
+                <input type="datetime-local" required />
+
+                <label>Email</label>
+                <input type="email" required name="emil" class="emil" placeholder="Email adress" />
+
+                <label>Password</label>
+                <input type="password" required name="password class=" password placeholder="Password" mainlength="7"
+                    maxlength="15" />
+            </div>
+
+            <br>
+
+            <div id="kind-footer" class="kind-footer">
+                <input id="boy" type="radio" name="sh" value="Male" />
+                <label for="boy">Male</label>
+
+                <input id="girl" type="radio" name="sh" value="Female" />
+                <label for="girl">Female</label>
+            </div>
+
+            <br>
+
+            <div id="nationality-footer" class="nationality-footer">
+                <label for="Nationality">Choose Your Country:</label>
+
+                <select name="Nationality" id="Nationality">
+
+                    <optgroup label="Africa">
+                        <option value="1">Egypt</option>
+                        <option value="2">Libya</option>
+                        <option value="3">Algeria</option>
+                        <option value="3">Tunisia</option>
+                        <option value="3">Morocco</option>
+                    </optgroup>
+
+                    <optgroup label="Asia">
+                        <option value="4">Palestine</option>
+                        <option value="5">Japan</option>
+                        <option value="6">Malaysia </option>
+                    </optgroup>
+
+                </select>
+
+            </div>
+
+            <br>
+
+            <div id="num-Nationality-footer" class="num-Nationality-footer">
+                <picture>ID Nationality </picture>
+                <input type="file" />
+            </div>
+            <br>
+            <br>
+
+            <div id="favorite-footer" class="favorite-footer">
+                <label>Your favorite color</label>
+                <input type="color" name="Color">
+
+                <label>Favorite actor</label>
+                <input list="Favorite actor" name="Favorite actor">
+            </div>
+
+            <br>
+
+            <div id="movies-footer" class="movies-footer">
+                &ltri; Favorite movies &ltri;
+            </div>
+
+            <div id="horror-movies" class="horror-movies">
+                <input id="horror " type="checkbox" name="mov" value="horror movies" checked />
+                <label for=" horror">horror movies</label>
+            </div>
+
+            <div id="action-movies" class="action-movies">
+                <input id=" action" type="checkbox" name="mov" value="action movies" />
+                <label for=" action">action movies</label>
+            </div>
+
+            <div id="science-movies" class="science-movies">
+                <input id=" science" type="checkbox" name="mov" value="science fiction movies" />
+                <label for=" science">science fiction movies</label>
+            </div>
+
+            <br>
+
+            <datalist id="favorite-actor" class="favorite-actor">
+                <option value="Yousef al-Sharif">
+                <option value="Mohamed Henedy">
+                <option value="Adel Emam">
+                <option value="Ahmed Helmy">
+            </datalist>
+
+            <div id="masseage-footer" class="masseage-footer">
+                <textarea name="subject" cols="50" rows="10" placeholder="Your Masseage"> </textarea>
+            </div>
+
+            <br>
+
+            <div id="click-footer" class="click-footer">
+                <button style="
+                    background:rgba(243, 83, 83, 0.633);
+                    border:none; 
+                    font-weight:bold;
+                    cursor:pointer;
+                    font-size:medium;
+                    font-style: italic;
+                    color:white;
+                    border-radius: 80px; ">Send
+                </button>
+
+                <button style="
+                    background:rgba(243, 83, 83, 0.633);
+                    border:none; 
+                    font-weight:bold;
+                    cursor:pointer;
+                    font-size:medium;
+                    font-style: italic;
+                    color:white;
+                    border-radius: 80px;">Reset
+                </button>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div id="help-section" class="help-section">
+
+            <div id="Q" class="q">
+                <h2> Help </h2>
+            </div>
+
+            <div id="link" class="link">
+                <!-- This is help questions -->
+                <a style="
+                    background:rgba(168, 55, 55, 0.762);
+                    font-weight:bold;
+                    cursor:help;
+                    font-size:x-large" href="https://help.netflix.com/en/node/412">FAQ</a>
+
+                <a style="
+                    background:rgba(168, 55, 55, 0.762);
+                    font-weight:bold;
+                    cursor:help;
+                    font-size:x-large" href="https://media.netflix.com/en/">Media Center</a>
+
+                <a style="
+                    background:rgba(168, 55, 55, 0.762);
+                    font-weight:bold;
+                    cursor:help;
+                    font-size:x-large" href="https://devices.netflix.com/en/">Ways to Watch</a>
+
+                <a style="
+                    background:rgba(168, 55, 55, 0.762);
+                    font-weight:bold;
+                    cursor:help;
+                    font-size:x-large" href="https://www.netflix.com/eg-en/#">Cookie Preferences</a>
+
+                <a style="
+                    background:rgba(168, 55, 55, 0.762);
+                    font-weight:bold;
+                    cursor:help;
+                    font-size:x-large" href="https://fast.com/">Speed Test</a>
+
+            </div>
+
+        </div>
+
+
+        <hr>
+
+        <div id="copy" class="copy">
+            &copy;Shehab Mohammed
+        </div>
+
+    </body>
+
+</html>
