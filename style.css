@@ -1,0 +1,172 @@
+
+a:visited{
+    color: rgb(230, 226, 220);
+}
+
+
+a:hover{
+    color: red;
+} 
+
+
+a{
+    text-decoration: none
+}
+
+
+::selection{
+    background-color: rgb(14, 11, 11);
+    color: red;
+} 
+
+
+.header{
+    background-image: url(./Pic/section1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    font-style: italic;
+    margin: -9px;
+    border: 5px solid red;
+    border-color: black red;
+}
+
+
+.first-section{
+    background-color: rgba(13, 12, 12, 0.162);
+}
+
+
+.logo{
+    display:inline-block ;
+    text-align: left;
+}
+
+
+.search{
+    color: white;
+    display: block;
+    text-align: center;
+    margin: -50px;
+    padding-bottom: 50px;        
+}
+
+
+.sign-in{
+    display: block;
+    text-align: right;
+    width: 1450px;
+    text-indent: 10px;
+    margin: -70px;
+    padding-bottom: 60px;                    
+}
+
+.descrbtion-first-section{
+    display: block;
+    color:white;
+    height:350px ;
+    width: 1500px; 
+    font-size: x-large;
+    text-align:center;
+    margin: 0px;
+    padding-bottom: 100px;
+}
+
+
+.second-section{
+    color: white;
+    font-style:italic;
+    padding: 9%;
+    background-image: url(./Pic/section2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin: -9px;
+    border: 5px solid red;
+    border-color: black red;
+}
+
+
+.descrbtion-second-section{
+    text-indent: 15px;
+    display: block;
+    color: white;
+    font-style: italic; 
+    text-align: left;          
+}
+
+
+.footer{
+    color: white;
+    font-style: italic;
+    padding: 5%;
+    background-image: url(./Pic/section3.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    font-size: large;
+    text-align: left;
+    margin: -9px;
+    border: 5px solid red;
+    border-color: black red;
+}
+
+
+.regstrtion-footer {
+    color: red;
+}
+
+
+.kind-footer {
+    color: red;
+}
+
+
+.nationality-footer{
+    color: red;
+}
+
+
+.num-Nationality-footer{
+    color: red;
+}
+
+
+.favorite-footer{
+    color: red;
+}
+
+
+.movies-footer{
+    color: red;
+}
+
+
+.favorite-actor{
+color: red;
+}
+
+
+.help-section{
+    color: rgba(193, 193, 193, 0.683);
+    font-style: italic;
+    padding: 80px;
+    background-image: url(./Pic/section4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-size: medium;
+    text-align: center;
+    margin: -9px;
+    border: 5px solid red;
+    border-color: black red;
+}
+
+
+.copy{
+    color: rgb(231, 28, 28);
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+  
+}
